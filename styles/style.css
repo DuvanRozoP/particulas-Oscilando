@@ -31,8 +31,8 @@ h1{
 }
 
 .particula{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: rgb(9, 255, 0);
     border-radius: 50%;
     margin: 3px;
@@ -46,9 +46,22 @@ h1{
     overflow-x: scroll;
 }
 
+#inputTime{
+    width: 220px;
+    height: 30px;
+    border-radius: 10px;
+    outline-style: none;
+    border-style: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.3);
+}
+
 .amplitud,
 .gamma,
 .fi{
+    position: relative;
+    top: -2px;
     padding-left: 6px;
     width: 55px;
     height: 30px;
@@ -61,11 +74,12 @@ h1{
 }
 
 #inputParticulas{
-    width: 200px;
+    width: 220px;
     height: 30px;
     border-radius: 10px;
     outline-style: none;
     border-style: none;
+    padding-left: 10px;
     box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.3);
 }
 
@@ -75,6 +89,10 @@ h1{
     align-items: center;
     margin-left: 5px;
     margin-right: 7px;
+}
+
+.containerDataOscilacion{
+    width: 220px;
 }
 
 button{
@@ -94,4 +112,8 @@ button:hover{
     transform: scale(110%);
     box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.3);
     pointer-events: painted;
+}
+
+.informacionDeUso{
+    padding: 15px;
 }

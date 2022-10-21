@@ -1,4 +1,4 @@
-import {select} from './utils/helpers.mjs'
+import { select } from './utils/helpers.mjs'
 
 export const DOM_ELEMENTS = {
     inputCantidadParticulas: select('#inputParticulas'),
@@ -7,5 +7,5 @@ export const DOM_ELEMENTS = {
     inputFi: select('#fi'),
     inputTime: select('#inputTime'),
     buttonComenzar: select('#start'),
-
+    particulas: select('.particulasCreadas'),
 }
