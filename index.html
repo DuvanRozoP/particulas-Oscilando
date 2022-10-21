@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Particulas en oscilacion</title>
+</head>
+<body>
+
+    <h1> movimiento periodico rectilinea acotado </h1>
+
+    <section class="containerPArticulas">
+        <section class="particulasCreadas">
+            <div id="particula1" class="particula"></div>
+        </section>
+    </section>
+
+    <section class="formulaOscilacion">
+        <section class="containerDataOscilacion">
+            <input id="inputParticulas" type="text" placeholder="Cantidad de particulas (max 20)">
+            <input id="inputTime" type="number" placeholder="tiempo total de la oscilacion">
+        </section>
+
+        <section class="formula">
+            <p>X = </p>
+            <input id="amplitud" class="amplitud" placeholder="A" type="number">
+            <p> Cos (</p>
+            <input id="gamma" class="gamma" placeholder="ω" type="number">
+            <p>t + </p>
+            <input id="fi" class="fi" placeholder="ϕ" type="number">
+            <p>)</p>
+        </section>
+
+        <section class="tiposOscilacion">
+            <button id="start">Comenzar</button>
+        </section>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./js/animation.mjs"></script>
+</body>
+</html>
